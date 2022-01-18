@@ -18,7 +18,6 @@
 1. 학생 리스트 페이지 -> 학생이름 클릭 -> 해당 학생의 학부모면담 내용 페이지로 이동
 - DB 정보를 확인 및 출력할 수 있는 화면만 있도록 간단하게 구현하였음
 # [3] SQL문
-1. CUD SQL문의 경우 하기 상황에서 기능하도록 상상하여 프로젝트 파일(com.sist.mapper>StudentMapper) 및 sql 파일에서 확인 가능 
+1. CUD SQL문의 경우 하기 상황에서 기능하도록 상상하여 [프로젝트 파일(com.sist.mapper>StudentMapper) 및 sql 파일](https://github.com/gyurami/22-01-ParentsInterviewInfo/tree/main/%5B3%5D%20SQL)에서 확인 가능 
 - 학생 리스트 페이지에서 '학생 정보' 추가, 수정, 삭제하는 상황을 가정하여 작성하였음
 - 개별 학생의 학부모면담 페이지에서 '학부모면담 내용' 추가, 수정, 삭제 하는 상황을 가정하여 작성하였음
-[sql ](https://github.com/gyurami/22-01-ParentsInterviewInfo/tree/main/%5B3%5D%20SQL)
