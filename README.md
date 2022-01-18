@@ -1,6 +1,7 @@
 # Language & Tool
 - Language: Java
 - DB: Oracle
+- server: Apache Tomcat 8.5
 - Tool: vuerd, Sql Developer, STS(3.4.14)
 
 # [1] DB설계
