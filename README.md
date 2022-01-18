@@ -1,9 +1,17 @@
-# 22-01-ParentsInterviewInfo
-1. Language & Tool
-Java, Oracle, Sql Developer, vuerd, STS(3.4.14)
+# Language & Tool
+- Language: Java
+- DB: Oracle
+- Tool: vuerd, Sql Developer, STS(3.4.14)
 
 # [1]DB설계
 
 ![DB설계](https://user-images.githubusercontent.com/86100634/150008994-2c782898-e465-4550-aa8b-762faf0c9c2f.jpg)
+1. 학생관리, 학부모 면담 데이터 관리가 용이하도록 학생정보테이블, 학부모면담정보테이블로 나누었음
+  - 4)번 요구사항을 고려하여 학년, 반, 학생이름, 가족관계(부, 모, 기타)별 면담내용을 조회할 수 있도록 컬럼을 구성하였음
+  - 학생정보테이블에서는 학생번호를 식별자 삼아 해당 학생의 학생정보를 관리하고 
+    학부모면담정보테이블에서는 학생번호를 외래키로 활용하여 해당 학생의 학부모 면담정보를 관리하도록 함
+    ** 외래키 설정 시 학생정보테이블에서 학생번호 삭제 시 학부모 면담 정보도 함께 삭제될 수 있도록 
+       delete cascade 적용하였음
+2. 학부모면담정보테이블에서 한 학생당 '부', '모' 등 여러 가족의 상담내역이 있을 수 있으므로 면담번호를 PK로 설정하였음
 
 
