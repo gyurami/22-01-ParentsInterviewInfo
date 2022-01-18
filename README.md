@@ -21,4 +21,4 @@
 1. CUD SQL문의 경우 하기 상황에서 기능하도록 상상하여 프로젝트 파일(com.sist.mapper>StudentMapper) 및 sql 파일에서 확인 가능 
 - 학생 리스트 페이지에서 '학생 정보' 추가, 수정, 삭제하는 상황을 가정하여 작성하였음
 - 개별 학생의 학부모면담 페이지에서 '학부모면담 내용' 추가, 수정, 삭제 하는 상황을 가정하여 작성하였음
-
+[sql ](https://github.com/gyurami/22-01-ParentsInterviewInfo/tree/main/%5B3%5D%20SQL)
